@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+
 """ pygame.examples.glcube
 
 Draw a cube on the screen.

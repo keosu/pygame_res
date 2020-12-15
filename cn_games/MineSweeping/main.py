@@ -4,7 +4,7 @@ from enum import Enum
 import pygame
 from pygame.locals import *
 from mineblock import *
-
+import os
 
 # 游戏屏幕的宽
 SCREEN_WIDTH = BLOCK_WIDTH * SIZE
@@ -25,6 +25,7 @@ def print_text(screen, font, x, y, text, fcolor=(255, 255, 255)):
 
 
 def main():
+    os.chdir(os.path.dirname(__file__))
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     pygame.display.set_caption('扫雷')

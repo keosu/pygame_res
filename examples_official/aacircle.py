@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-
-"""Proof of concept gfxdraw example"""
 
 import pygame
 import pygame.gfxdraw

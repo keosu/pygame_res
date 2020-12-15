@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "C:\\Users\\answery\\Anaconda3\\python.exe",
+  "python.pythonPath": "C:\\Users\\Administrator\\anaconda3\\python.exe",
   "python.linting.pylintArgs": [
     "--extension-pkg-whitelist=pygame", // comma separated, 
     "--unsafe-load-any-extension=y"
