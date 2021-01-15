@@ -1,7 +1,7 @@
 import os
 import shutil
 
-import simple_draw as sd
+import drawlib as sd
 
 # TAKE_SNAPSHOTS = False
 TAKE_SNAPSHOTS = True
